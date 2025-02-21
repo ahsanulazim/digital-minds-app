@@ -1,0 +1,68 @@
+{
+    "reviews": [
+      {
+        "id": 1,
+        "reviewer": "Sadia Islam",
+        "course": "Graphic Design",
+        
+        "review": "The Graphic Design course was fantastic! The lessons on Photoshop, Illustrator, and InDesign were well-structured, and the real-world projects gave me confidence to take on freelance clients. The instructors were super helpful too!"
+      },
+      {
+        "id": 2,
+        "reviewer": "Rahim Ahmed",
+        "course": "Full Stack Web Development",
+        
+        "review": "I enrolled in the Full Stack Web Development course, and it was an amazing experience! The instructors explained concepts clearly, and the hands-on projects really helped me grasp React, Node.js, and MongoDB. Highly recommended for anyone looking to start a career in web development!"
+      },
+      {
+        "id": 3,
+        "reviewer": "Tanvir Hossain",
+        "course": "Digital Marketing",
+        
+        "review": "This course covered everything from SEO to Facebook Ads in a very practical way. I was able to apply what I learned to my own business and saw an increase in traffic and sales. Perfect for beginners!"
+      },
+      {
+        "id": 4,
+        "reviewer": "Nafis Rahman",
+        "course": "Cyber Security",
+        
+        "review": "The Cyber Security course was detailed and covered ethical hacking, penetration testing, and network security. The labs were very interactive. However, I wish there were more live sessions for doubt clearing."
+      },
+      {
+        "id": 5,
+        "reviewer": "Ayesha Akter",
+        "course": "App Development",
+        
+        "review": "I always wanted to build mobile apps, and this Flutter course made it possible. The instructors explained Dart and Flutter framework so well, and now I can build cross-platform apps with ease. Great learning experience!"
+      },
+      {
+        "id": 6,
+        "reviewer": "Imran Chowdhury",
+        "course": "UI/UX Design",
+        
+        "review": "The UI/UX Design course was very insightful! Learning about wireframing, prototyping, and Figma helped me land my first job as a junior designer. The real-world projects were the best part!"
+      },
+      {
+        "id": 7,
+        "reviewer": "Mahmudul Hasan",
+        "course": "Motion Graphics & Video Editing",
+        
+        "review": "I learned After Effects, Premiere Pro, and advanced video editing techniques in this course. The quality of lessons was great, but I wish there were more project-based assignments."
+      },
+      {
+        "id": 8,
+        "reviewer": "Farzana Jahan",
+        "course": "Data Science & Machine Learning",
+        
+        "review": "This was an intense but rewarding course! The instructors broke down Python, Pandas, and machine learning models in an easy-to-understand way. By the end of the course, I was able to build my own ML models!"
+      },
+      {
+        "id": 9,
+        "reviewer": "Hasan Mahmud",
+        "course": "Cloud Computing",
+        "institute": "CloudTech Academy",
+        "review": "The Cloud Computing course was exactly what I needed to get started with AWS and Azure. The practical labs and real-world case studies made a huge difference in my understanding. Great for anyone looking to build a career in cloud services!"
+      }
+    ]
+  }
+  

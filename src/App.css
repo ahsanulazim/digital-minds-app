@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@theme {
+    --font-montserrat: "Montserrat", serif;
+    --color-main: #0072F9;
+}
