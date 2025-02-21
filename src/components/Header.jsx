@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router';
 const Header = () => {
 
     const nav = <>
-        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/digital-minds-app">Home</NavLink></li>
         <li><a>Product</a></li>
         <li><a>Pricing</a></li>
         <li><a>Contact</a></li></>
