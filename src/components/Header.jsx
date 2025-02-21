@@ -33,7 +33,7 @@ const Header = () => {
                                 </label>
                             </div>
                             {/* <div className="mx-2 flex-1 px-2">Navbar Title</div> */}
-                            <NavLink to="/digital-minds-app" className="text-xl font-bold">Digital Minds</NavLink>
+                            <NavLink to="/digital-minds-app" className="text-md lg:text-xl font-bold">Digital Minds</NavLink>
                         </div>
                         <div className="hidden navbar-center lg:flex">
                             <ul className="menu menu-horizontal px-1 font-bold text-zinc-500">
@@ -42,8 +42,9 @@ const Header = () => {
                             </ul>
                         </div>
                         <div className="navbar-end gap-x-4 lg:gap-x-8">
-                            <Link to="/login" className="text-main text-sm font-bold">Login</Link>
+                            <Link to="/login" className="hidden sm:block text-main text-sm font-bold">Login</Link>
                             <Link to="/register"><button className="btn btn-xs lg:btn-md bg-main border-0 text-white">JOIN US <IoIosArrowForward className='text-lg' /></button></Link>
+
                         </div>
                     </header>
                 </div>

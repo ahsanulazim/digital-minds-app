@@ -10,8 +10,8 @@ const Hero = () => {
                         src={girl}
                         className="xl:-mr-25" alt="boy" />
                     <div>
-                        <h6 className="text-sm text-center lg:text-left font-bold text-main lg:mb-5">Online</h6>
-                        <h1 className="text-5xl text-center lg:text-left font-bold leading-15">HIGH QUALITY COURSES</h1>
+                        <h6 className="text-sm mx-auto mb-2 lg:m-0 text-center lg:text-left font-bold bg-main/15 text-main w-max px-3 py-2 rounded-full">Online</h6>
+                        <h1 className="text-3xl sm:text-5xl text-center lg:text-left font-bold leading-10 sm:leading-15">HIGH QUALITY COURSES</h1>
                         <p className="py-6 text-center lg:text-left">
                             Every day brings with it a fresh set of learning possibilities.
                         </p>
