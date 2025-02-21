@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="digital-minds-app" element={<Home />} />
         <Route path="register" element={<Registration />} />
         <Route path="login" element={<Login />}>
         </Route>

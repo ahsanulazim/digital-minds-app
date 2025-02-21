@@ -7,7 +7,7 @@ const Testimonials = () => {
     const [allReview, setAllReview] = useState([]);
 
     useEffect(() => {
-        fetch('/review.json')
+        fetch(`${import.meta.env.BASE_URL}review.json`)
             .then(response => response.json())
             .then(data => setAllReview(data)
             )

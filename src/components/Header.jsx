@@ -33,7 +33,7 @@ const Header = () => {
                                 </label>
                             </div>
                             {/* <div className="mx-2 flex-1 px-2">Navbar Title</div> */}
-                            <NavLink to="/" className="text-xl font-bold">Digital Minds</NavLink>
+                            <NavLink to="/digital-minds-app" className="text-xl font-bold">Digital Minds</NavLink>
                         </div>
                         <div className="hidden navbar-center lg:flex">
                             <ul className="menu menu-horizontal px-1 font-bold text-zinc-500">
