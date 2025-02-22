@@ -35,9 +35,9 @@ const Header = () => {
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
-                    <header className="navbar max-w-[1050px] mx-auto">
+                    <header className="navbar max-w-[1050px] 2xl:max-w-[1440px] mx-auto">
                         <div className="navbar-start">
-                            <div className="flex-none lg:hidden">
+                            <div className="flex-none sm:hidden">
                                 <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -53,17 +53,17 @@ const Header = () => {
                                 </label>
                             </div>
                             {/* <div className="mx-2 flex-1 px-2">Navbar Title</div> */}
-                            <NavLink to="/digital-minds-app" className="text-md lg:text-xl font-bold">Digital Minds</NavLink>
+                            <NavLink to="/digital-minds-app" className="text-md md:text-xl 2xl:text-2xl font-bold">Digital Minds</NavLink>
                         </div>
-                        <div className="hidden navbar-center lg:flex">
-                            <ul className="menu menu-horizontal px-1 font-bold text-zinc-500">
+                        <div className="hidden navbar-center sm:flex">
+                            <ul className="menu 2xl:text-lg 2xl:gap-7 menu-horizontal px-1 font-bold text-zinc-500">
                                 {/* Navbar menu content here */}
                                 {nav}
                             </ul>
                         </div>
                         <div className="navbar-end gap-x-4 lg:gap-x-8">
 
-                            <Link to="/login"><button className="btn btn-sm lg:btn-md bg-main border-0 text-white">Login <IoIosArrowForward className='text-md md:text-lg' /></button></Link>
+                            <Link to="/login"><button className="btn btn-sm lg:btn-md 2xl:btn-lg bg-main border-0 text-white">Login <IoIosArrowForward className='text-md md:text-lg' /></button></Link>
 
                         </div>
                     </header>

@@ -8,7 +8,7 @@ const Card = ({ image, title, badge }) => {
                 <figure className="relative">
                     <img className="h-40 w-full object-cover"
                         src={image}
-                        alt={title} />
+                        alt={title} draggable={false} />
                     <span className="badge absolute bottom-2 right-2 badge-soft border-0 rounded-full"><FaStar className="text-amber-400" />4.9</span>
                 </figure>
                 <div className="card-body p-4">
