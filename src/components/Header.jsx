@@ -1,7 +1,27 @@
+import { useEffect, useState } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 import { Link, NavLink } from 'react-router';
 
 const Header = () => {
+
+    const [isFixed, setIsFixed] = useState(false);
+
+    // Scroll handler
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 80) { // 100px scroll er por fixed hobe
+                setIsFixed(true);
+            } else {
+                setIsFixed(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const nav = <>
         <li><NavLink to="/digital-minds-app">Home</NavLink></li>
@@ -11,7 +31,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="drawer">
+            <div className={`drawer ${isFixed ? 'fixed top-0 left-0 w-full bg-white z-1' : 'static'}`}>
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
@@ -43,7 +63,7 @@ const Header = () => {
                         </div>
                         <div className="navbar-end gap-x-4 lg:gap-x-8">
                             <Link to="/login" className="hidden sm:block text-main text-sm font-bold">Login</Link>
-                            <Link to="/register"><button className="btn btn-xs lg:btn-md bg-main border-0 text-white">JOIN US <IoIosArrowForward className='text-lg' /></button></Link>
+                            <Link to="/register"><button className="btn btn-sm lg:btn-md bg-main border-0 text-white">JOIN US <IoIosArrowForward className='text-md md:text-lg' /></button></Link>
 
                         </div>
                     </header>

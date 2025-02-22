@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <footer className="bg-neutral">
-                <div className="footer sm:footer-horizontal max-w-[1050px] px-2  text-neutral-content py-10 mx-auto">
+                <div className="footer grid-cols-2 sm:grid-cols-none sm:footer-horizontal max-w-[1050px] px-2 justify-between text-neutral-content py-10 mx-auto">
                     <nav>
                         <h6 className="footer-title">Company Info</h6>
                         <a className="link link-hover">Branding</a>
@@ -43,11 +43,11 @@ const Footer = () => {
                 </div>
             </footer>
             <footer className="bg-main">
-                <div className="footer sm:footer-horizontal text-neutral-content justify-center md:justify-between items-center p-2 max-w-[1050px] mx-auto">
-                    <aside className="grid-flow-col items-center">
+                <div className="footer gap-y-2.5 sm:footer-horizontal text-neutral-content justify-center md:justify-between items-center p-2 max-w-[1050px] mx-auto">
+                    <aside className="grid-flow-col order-2 sm:order-1 items-center">
                         <p className="text-center md:text-left">Ahsanul Azim Plabon © {new Date().getFullYear()} - All right reserved</p>
                     </aside>
-                    <nav className="grid-flow-col gap-4 mx-auto md:place-self-center md:justify-self-end">
+                    <nav className="grid-flow-col order-1 sm:order-2 gap-4 mx-auto md:place-self-center md:justify-self-end">
                         <a href="https://www.facebook.com/ahsanulazimplabon">
                             <FaFacebook className="text-lg" />
                         </a>
