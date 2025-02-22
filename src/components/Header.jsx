@@ -62,8 +62,8 @@ const Header = () => {
                             </ul>
                         </div>
                         <div className="navbar-end gap-x-4 lg:gap-x-8">
-                            <Link to="/login" className="hidden sm:block text-main text-sm font-bold">Login</Link>
-                            <Link to="/register"><button className="btn btn-sm lg:btn-md bg-main border-0 text-white">JOIN US <IoIosArrowForward className='text-md md:text-lg' /></button></Link>
+
+                            <Link to="/login"><button className="btn btn-sm lg:btn-md bg-main border-0 text-white">Login <IoIosArrowForward className='text-md md:text-lg' /></button></Link>
 
                         </div>
                     </header>

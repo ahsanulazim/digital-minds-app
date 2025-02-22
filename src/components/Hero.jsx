@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import girl from "../assets/Images/girl.png";
 
 
@@ -16,8 +17,8 @@ const Hero = () => {
                             Every day brings with it a fresh set of learning possibilities.
                         </p>
                         <div className="mx-auto lg:mx-0 w-max">
-                            <button className="btn bg-main border-0 text-white mr-3">Get Quote Now</button>
-                            <button className="btn btn-outline text-main border-main">Learn More</button>
+                            <Link to="/register"><button className="btn bg-main border-0 text-white mr-3">Join Us Now</button></Link>
+                            <button className="btn btn-outline text-main border-main">Know More</button>
                         </div>
 
                     </div>
